@@ -117,7 +117,25 @@ header nav ul li a {
   color: #00e5ff;
   text-shadow: 0px 0px 5px #00e5ff;
 }
+.viewbtn {
+  margin-top: 20px;
+  background: #121212;
+  color: #f0f0f0;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 0 0 10px #ffffff;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
 
+.viewbtn:hover {
+  background: #2DD4BF;
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5), 0 0 15px #2DD4BF;
+}
 
 .cta-button {
   margin-top: 20px;

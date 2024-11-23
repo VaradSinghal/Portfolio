@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.logo img{
+  height: 30px;
+}
 body {
 
   font-family: 'Poppins', sans-serif;
@@ -168,10 +170,16 @@ footer {
   body {
     padding: 0 1rem;
   }
-
+.about{
+  margin-bottom:100px;
+}
+.projects{
+  margin-bottom: 50px;
+}
   header nav ul {
-    flex-direction: column;
-    gap: 1rem;
+    align-items: center;
+    flex-direction: row;
+    gap: 1px;
   }
 
   #contact h2 {
